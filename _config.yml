@@ -12,7 +12,7 @@ aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
 ### Site setting:
 ShowContactInfo: "True"
-default_column: "one"
+default_column: "two"
 
 ### Build settings
 highlighter: rouge
