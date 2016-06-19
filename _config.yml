@@ -1,9 +1,9 @@
 ### Site info:
-title: Matt's Thoughts On NLP Papers
+title: Matt Gardner's Homepage
 author: Matt Gardner
-email: mg1@cs.cmu.edu
-description: "Thoughts on NLP papers."
-baseurl: /paper-thoughts
+email: mattg@allenai.org
+description: "Matt Gardner"
+baseurl: /
 
 ### Personal info and site tools info:
 github_username:  matt-gardner
@@ -12,10 +12,10 @@ aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
 ### Site setting:
 ShowContactInfo: "True"
-default_column: "two"
+default_column: "one"
 
 ### Build settings
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 markdown: redcarpet
 kramdown:
