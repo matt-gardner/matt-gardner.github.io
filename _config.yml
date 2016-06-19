@@ -15,7 +15,7 @@ ShowContactInfo: "True"
 default_column: "two"
 
 ### Build settings
-highlighter: rouge
+highlighter: pygments
 paginate: 5
 markdown: redcarpet
 kramdown:
