@@ -74,12 +74,12 @@ ul, ol, dl, figure,
 
 @media screen and (min-width : $on-palm) {
   .col-sm-8 {
-    float:left;
+    float:right;
     width:65%;
   }
 
   .col-sm-2 {
-    float:right;
+    float:left;
     width:25%;
   }
 }
@@ -141,9 +141,9 @@ a {
   color: $brand-top-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-top-color, 25%);
-  }
+  //&:visited {
+    //color: darken($brand-top-color, 25%);
+  //}
 
   &:hover {
     color: #669900; //$hover-color;
@@ -156,9 +156,9 @@ a {
   color: $brand-color;    
   text-decoration: none;  
   border-bottom: 1px dotted;
-  &:visited {             
-    color: darken($brand-color, 25%);
-  }                       
+  //&:visited {             
+    //color: darken($brand-color, 25%);
+  //}                       
 
   &:hover {               
     color: $hover-color;
