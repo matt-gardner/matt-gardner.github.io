@@ -1,9 +1,9 @@
 ### Site info:
-title: Matt Gardner's Homepage
+title: Matt Gardner
 author: Matt Gardner
 email: mattg@allenai.org
 description: "Matt Gardner"
-baseurl: /
+baseurl: ""
 
 ### Personal info and site tools info:
 github_username:  matt-gardner

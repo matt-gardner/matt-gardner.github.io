@@ -10,13 +10,14 @@
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   text-align:center;
   a{
     &,
     &:visited
     &:hover {
       color: $brand-top-color; //$grey-color-dark
+      border-bottom: 1px dotted;
       text-decoration: none;
     }
   }
@@ -114,15 +115,7 @@
   h4{
     font-size: $base-font-size;
     font-weight: bold;
-    color: darken($brand-top-color, 25%);
-    a{
-      &,
-      &:visited
-      &:hover {
-        color: darken($brand-top-color, 25%); //$grey-color-dark
-        text-decoration: none;
-      }
-    }
+    color: $grey-color-dark;
   }
   li{
     list-style: none; 
@@ -177,6 +170,11 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  time{
+      margin-left: 0px;
+      font-style: normal;
+
+  }
 }
 
 .post-title {
@@ -188,17 +186,35 @@
     font-size: 36px;
   }
 }
-.home {
-  .post {
-    .post-title {
-      font-size: 24px;
-    }
+
+
+
+#markdown-toc{
+  float: right;
+  width:50%;
+  background:#f4f7f8;
+  padding:20px 15px;
+  li{
+    padding-top:10px;
+    position:relative; 
+    list-style-type:none;  
   }
 }
 
-.post-content {
+#markdown-toc:before{
+  content:"Table of Contents";
+  font-weight: 700;
+  padding-left:10px;
+  border-bottom:5px solid $grey-color-light !important;
+  display:block;
+  font-size:18px
+}
 
-  margin-bottom: $spacing-unit;
+
+
+.post-content {
+  p { padding:$spacing-unit/5 0; } 
+  //margin-bottom: $spacing-unit;
   h1 { 
     font-size: 38px;
     line-height:1em;
@@ -210,7 +226,6 @@
   h2 {
     font-size: 32px;
     line-height:1em;
-
     @include media-query($on-laptop) {
       font-size: 28px;
     }
